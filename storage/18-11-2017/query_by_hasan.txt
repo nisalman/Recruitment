@@ -1,0 +1,6 @@
+ALTER TABLE `form_submissions`
+	ADD COLUMN `permenentAddressPostOffice` VARCHAR(191) NULL DEFAULT NULL AFTER `designation`;
+ALTER TABLE `form_submissions`
+	CHANGE COLUMN `permenentAddressPostOffice` `permenentAddressPostOffice` VARCHAR(191) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci' AFTER `permenentAddress`;
+ALTER TABLE `form_submissions`
+	ADD COLUMN `currentAddressPostOffice` VARCHAR(191) NULL DEFAULT NULL AFTER `currentAddress`;
