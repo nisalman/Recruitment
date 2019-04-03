@@ -141,7 +141,7 @@ function removeFromList(id) {
 
 }
 // bangla date picker
-// $(".datepicker").bdatepicker();
+$(".datepicker").datepicker();
 // $.bdatepicker.setDefaults();
 
 /*$("").bnKb({
